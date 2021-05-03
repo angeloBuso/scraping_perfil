@@ -10,7 +10,7 @@ arquivo = csv.writer(open('output.csv', 'w', encoding='utf-8'))
 arquivo.writerow(['Nome', 'Headline', 'URL'])
 
 # a. objeto do tipo navegador
-navegador = webdriver.Chrome('E:/Portifolio/Scraping/chromedriver')
+navegador = webdriver.Chrome('https://github.com/angeloBuso/scraping_perfil/blob/main/chromedriver.exe')
 sleep(1)
 
 # a.1 maximizamos o navegador
