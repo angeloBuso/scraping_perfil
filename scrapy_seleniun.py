@@ -31,7 +31,7 @@ sleep(3)
 usuario = navegador.find_element_by_name('session_key')
 
 # d.1.1
-usuario.send_keys('angelobuso@hotmail.com')
+usuario.send_keys('seuemail@seuemail.com')
 
 # d.2
 senha = navegador.find_element_by_name('session_password')
